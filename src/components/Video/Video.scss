@@ -1,0 +1,47 @@
+.video {
+    
+    grid-column: col-start 1 / col-end 8;
+
+    box-shadow: 0 2rem 5rem rgba(0,0,0, .3);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 10rem 0;
+    background-image: linear-gradient(to right, rgba(0,0,0, .5), rgba(0,0,0, .5)), url(./videod.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+
+    @media only screen and (max-width: 450px) {
+        background-image: linear-gradient(to right, rgba(0,0,0, .5), rgba(0,0,0, .5)), url(./videom.jpg);
+        
+        margin: 1.5rem;
+        padding: 0rem;
+        grid-column: 1 / -1;
+    }
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+        
+        &_img {
+            
+            width: 13rem;
+            height: 13rem;
+            transition: all .2s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            &:active {
+                transform: scale(1);
+            }
+        }
+    }
+}

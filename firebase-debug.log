@@ -1,0 +1,13 @@
+[debug] [2020-09-20T11:41:56.150Z] ----------------------------------------------------------------------
+[debug] [2020-09-20T11:41:56.152Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2020-09-20T11:41:56.153Z] CLI Version:   8.10.0
+[debug] [2020-09-20T11:41:56.153Z] Platform:      linux
+[debug] [2020-09-20T11:41:56.153Z] Node Version:  v14.8.0
+[debug] [2020-09-20T11:41:56.153Z] Time:          Sun Sep 20 2020 17:11:56 GMT+0530 (India Standard Time)
+[debug] [2020-09-20T11:41:56.153Z] ----------------------------------------------------------------------
+[debug] [2020-09-20T11:41:56.153Z] 
+[debug] [2020-09-20T11:41:56.160Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-20T11:41:56.160Z] > authorizing via signed-in user
+[debug] [2020-09-20T11:41:56.161Z] [iam] checking project casadeco-98cdc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-20T11:41:56.163Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/casadeco-98cdc:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
