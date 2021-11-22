@@ -1,6 +1,11 @@
+Interior Designer Webside made for my friend.
+
+
+For developer:
 
 npm install
 npm start
 
+For non-Developer
 
-here is link : https://casadeco-fca90.web.app/ This is how its look like 
+go to this link : https://lottery-99cca.web.app/
