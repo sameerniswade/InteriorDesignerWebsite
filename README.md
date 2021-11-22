@@ -3,8 +3,8 @@ Interior Designer Webside made for my friend.
 
 For developer:
 
-npm install
-npm start
+1. npm install
+2. npm start
 
 For non-Developer
 
