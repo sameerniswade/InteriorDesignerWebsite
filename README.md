@@ -8,4 +8,4 @@ For developer:
 
 For non-Developer
 
-go to this link : https://lottery-99cca.web.app/
+go to this link : https://casadeco-fca90.web.app/
